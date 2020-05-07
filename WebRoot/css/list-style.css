@@ -1,0 +1,299 @@
+.home{
+position:fixed;
+left:20px;
+top:10px;
+width:85px;
+height:85px;
+padding:7px 5px 3px 5px;
+background-color: #f1c573a4;
+border-radius: 100% 100%;
+text-align: center;
+box-shadow: 2px 2px rgba(177, 176, 176, 0.555);
+z-index:999;
+}
+#home{
+font-size:20px;
+}
+
+.home p{
+color:#aa7766;
+font-weight: 600;
+}
+.home p:hover{
+color:#73aef1a4;
+}
+
+.round-square{
+	
+    position:fixed;
+    z-index:999;
+    top:5px;
+    right:-10px;
+    width: 400px;
+    background-color: transparent;
+    border-radius:10px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.round-square a{
+	background-color:transparent;
+	border:none;
+    color: #f1c573e1;
+    letter-spacing:2px;
+    
+}
+
+
+#space{
+    width:10px;
+}
+
+body{
+	
+}
+/* product area */
+.product-tab-list {
+    display: flex;
+    justify-content: center;
+}
+.product-tab-list a {
+    position: relative;
+}
+
+.product-tab-list a h4 {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-weight: 500;
+    
+    margin: 50px 31px;
+    
+    transition: all .3s ease 0s;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    
+    line-height: 60px;
+    letter-spacing: 4px;
+    
+    body{
+	
+    }
+    /* product area */
+    .product-tab-list {
+        display: flex;
+        justify-content: center;
+    }
+    .product-tab-list a {
+        position: relative;
+    }
+    .product-tab-list a h4 {
+        color: #2b2b2b;
+        font-size: 30px;
+        font-weight: 500;
+        
+        margin: 50px 31px;
+        
+        transition: all .3s ease 0s;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        
+        line-height: 60px;
+        letter-spacing: 4px;
+        
+        
+    }
+    .product-tab-list a::before {
+        background-color: #2b2b2b;
+        content: "";
+        height: 1px;
+        position: absolute;
+        right: -4px;
+        top: 7px;
+        transition: all 0.4s ease 0s;
+        width: 5px;
+    }
+    .product-tab-list a:last-child::before {
+        display: none;
+    }
+    .product-tab-list a.active h4,
+    .product-tab-list a h4:hover {
+        color: #f3a395;
+    }
+    .product-wrapper,
+    .product-img {
+        overflow: hidden;
+        position: relative;
+    }
+    .product-img img {
+        width: 100%;
+    }
+    
+    .product-wrapper:hover .product-action {
+        bottom: 20px;
+        opacity: 1;
+    }
+    .product-content {
+        padding-top: 26px;
+    }
+    .product-content > h4 {
+        color: #646464;
+        font-size: 16px;
+        margin: 0;
+    }
+    .product-content > h4 a {
+        color: #646464;
+    }
+    .product-content > h4 a:hover,
+    .product-action-style > a:hover {
+        color: #f3a395;
+    }
+    
+    .product-price > span.old {
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: line-through;
+    }
+    .product-price > span {
+        color: #646464;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0 2px;
+    }
+    
+    .product-img > span {
+        background-color: #fff;
+        box-shadow: 0 0 8px 1.7px rgba(0, 0, 0, 0.06);
+        color: #333;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 500;
+        left: 20px;
+        letter-spacing: 1px;
+        padding: 3px 12px;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        top: 20px;
+    }
+    .product-img img {
+        transition: all 1.5s ease 0s;
+        width: 100%;
+    }
+    .product-wrapper:hover .product-img img {
+        transform: scale(1.2);
+    }
+    
+    
+}
+
+
+.product-tab-list a.active h4,
+.product-tab-list a h4:hover
+ {
+    color: #f3a395;
+}
+.product-tab-list a h4:visited{
+    color: green;
+}
+
+
+.product-wrapper,
+.product-img {
+    overflow: hidden;
+    position: relative;
+}
+.product-img img {
+    width: 100%;
+}
+
+.product-wrapper:hover .product-action {
+    bottom: 20px;
+    opacity: 1;
+}
+.product-content {
+    padding-top: 26px;
+}
+.product-content > h4 {
+    color: #646464;
+    font-size: 16px;
+    margin: 0;
+}
+.product-content > h4 a {
+    color: #646464;
+}
+.product-content > h4 a:hover,
+.product-action-style > a:hover {
+    color: #f3a395;
+}
+
+.product-price > span.old {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.product-price > span {
+    color: #646464;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 2px;
+}
+
+.product-img > span {
+    background-color: #fff;
+    box-shadow: 0 0 8px 1.7px rgba(0, 0, 0, 0.06);
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    left: 20px;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+}
+.product-img img {
+    transition: all 1.5s ease 0s;
+    width: 100%;
+}
+.product-wrapper:hover .product-img img {
+    transform: scale(1.2);
+}
+
+.BG1-container{
+    width: 100%;
+    height: 20%;
+    top: 10%;
+    bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    
+    background-color:#5B6770;
+    margin: 80px 0px 30px 0;
+    width:100%;
+    height:100%;
+    border: 5px;
+    letter-spacing: 2PX;
+    background-image: url("https://i.dell.com/sites/imagecontent/app-merchandizing/responsive/LearnSegment/alienware/assets/en/PublishingImages/Alienware-images/CS1803G0037-aw-game-like-a-champion-team-liquid-site-banner-2800x944-notebook.jpg");
+}
+
+.frontBG-container{
+    z-index: 2;
+}
+
+.frontBG-container a{
+    text-decoration: none;
+    text-decoration-color: antiquewhite;
+    font-family: 'Montserrat';
+    font-style: normal;
+    /*font-weight: 200;        */
+    text-align: center;
+    letter-spacing:2.5px;
+}

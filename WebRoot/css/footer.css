@@ -1,0 +1,37 @@
+﻿
+
+*{ margin:0; padding:0; font-family:Microsoft YaHei;}
+.clear{ clear:both;}
+img{ border:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+li{ list-style-type:none;}
+body{ background:#fff;}
+
+.foot_nav{ width:1200px; height:auto;margin:20px auto; padding:20px; font-size:12px; line-height:25px; color:#555;}
+.foot_nav_div{ width:180px; height:auto; min-height:120px; margin:10px; float:left; padding:5px 10px; }
+.foot_nav_div h2{ font-size:18px; color:#111; line-height:50px; text-align:left; font-weight:normal;}
+.foot_nav_div li{ text-align:left;}
+.foot_nav_div li a{ font-size:14px; color:#888; line-height:35px; text-align:left;}
+.foot_nav_div li a:hover{ font-size:14px; color:#111; line-height:35px; text-align:left;}
+
+.foot_nav_divb{ width:220px; height:auto; min-height:120px; margin:10px; float:left; padding:5px 10px; text-align:center; }
+.foot_nav_divb h2{ font-size:18px; color:#111; line-height:50px; text-align: center; font-weight:normal;}
+
+.online{ width:200px; height:50px; margin:5px auto; border:1px solid #111; background:#fff; font-size:24px; line-height:50px; text-align:center;}
+.online a{ color:#111;}
+.online:hover{ width:200px; height:50px; border:1px solid #111;background:#111;}
+.online:hover a{color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
