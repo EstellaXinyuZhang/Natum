@@ -1,5 +1,5 @@
 # Online-shopping-website
-By using HTML5, javascript, css, MySQL
+HTML5, JavaScript, CSS, JSP, Servlet, MySQL
 
 <img src="https://github.com/Xinyu-Zhang9943/Natum/blob/master/home.jpg">
 
